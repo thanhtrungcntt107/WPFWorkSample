@@ -10,24 +10,24 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WPFWorkSample.Views
 {
     /// <summary>
-    /// Interaction logic for CarView.xaml
+    /// Interaction logic for Dashboard.xaml
     /// </summary>
-    public partial class CarView : UserControl
+    public partial class Dashboard : Window
     {
-        public CarView()
+        public Dashboard()
         {
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            MainWindow win = new MainWindow();
+            win.ShowDialog();
         }
     }
 }

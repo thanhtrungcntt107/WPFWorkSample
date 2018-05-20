@@ -31,6 +31,7 @@
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
+            <TextBox Height="23" TextWrapping="Wrap" Text="TextBox" TextChanged="TextBox_TextChanged"/>
         </StackPanel>
         
         <Button Content="Quick Add" HorizontalAlignment="Left" Margin="10,359,0,0" VerticalAlignment="Top" Width="75" Height="31"
